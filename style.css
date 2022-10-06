@@ -1,0 +1,44 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 8rem;
+}
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p {
+  color: darkblue;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h4 {
+  color: darkblue;
+  font-size: 30px;
+}
+
+button {
+  color: wheat;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 30px 80px;
+  background-color: darkblue;
+  border-color: transparent;
+}
+
